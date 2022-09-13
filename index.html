@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <!----------GOOGLE FONTS---------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <!----------QUARK CSS---------->
+    <style type="text/css">
+      /*Define colors and for your website*/
+      :root {
+        /*Body text color*/
+        --primary: black;
+        /*Body background color*/
+        --secondary: snow;
+        /*Main accent color*/
+        --tertiary: darkturquoise;
+        /*2nd accent color*/
+        --quaternary: rgb(191, 239, 240);
+        /*Main font*/
+        --main-font: Montserrat, sans-serif;
+        /*Secondary font*/
+        --secondary-font: Montserrat, sans-serif;
+      }
+
+      body {
+        background-image: linear-gradient(
+            rgba(255, 255, 255, 0.9),
+            rgba(255, 255, 255, 0.5)
+          ),
+          url(img/back.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      nav a {
+        font-size: 0.7rem;
+      }
+    </style>
+  </head>
+  <body class="back-secondary">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <main class="col-full padded">
+      <h1 class="hover-border-bottom-md-tertiary">holi estás en mi página</h1>
+      <br />
+      <p id="resultado"></p>
+    </main>
+    <footer class="back-quaternary padded-hard">
+      Desarrollado por
+      <a
+        href="https://www.diestrocorp.com.ar/portfolio-matias-perez-dev/"
+        title="Portfolio Matías Pérez"
+        target="_blank"
+        class="font-bold color-tertiary hover-border-bottom-md-tertiary"
+        >Matías Gabriel Pérez</a
+      >
+      | Todos los derechos reservados.
+    </footer>
+    <script src="control.js" async defer></script>
+  </body>
+</html>
